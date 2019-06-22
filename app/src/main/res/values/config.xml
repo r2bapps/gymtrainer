@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="defaultValue">0</integer>
+    <string name="deleted_key">deleted</string>
+    <string name="index_key">index</string>
+    <string name="prefs_filename">apps.r2b.gymtrainer.prefs</string>
+    <string name="config_filename">apps.r2b.gymtrainer.config</string>
+    <integer name="anim_duration">600</integer>
+    <string-array name="image_names">
+        <!-- pecho -->
+        <item>p1animation</item>
+        <item>p2animation</item>
+        <item>p3animation</item>
+        <item>p4animation</item>
+        <item>p5animation</item>
+        <item>p6animation</item>
+        <item>p7animation</item>
+        <item>p8animation</item>
+        <item>p9animation</item>
+        <item>p10animation</item>
+        <item>p11animation</item>
+        <item>p12animation</item>
+        <item>p13animation</item>
+        <item>p14animation</item>
+        <item>p15animation</item>
+        <item>p16animation</item>
+        <!-- triceps -->
+        <item>t1animation</item>
+        <item>t2animation</item>
+        <item>t3animation</item>
+        <item>t4animation</item>
+        <item>t5animation</item>
+        <item>t6animation</item>
+        <item>t7animation</item>
+        <item>t8animation</item>
+        <item>t9animation</item>
+        <item>t10animation</item>
+        <item>t11animation</item>
+        <!-- biceps -->
+        <item>b1animation</item>
+        <item>b2animation</item>
+        <item>b3animation</item>
+        <item>b4animation</item>
+        <item>b5animation</item>
+        <item>b6animation</item>
+        <item>b7animation</item>
+        <item>b8animation</item>
+        <item>b9animation</item>
+        <item>b10animation</item>
+        <item>b11animation</item>
+        <item>b12animation</item>
+        <item>b13animation</item>
+        <!-- espalda -->
+        <item>e1animation</item>
+        <item>e2animation</item>
+        <item>e3animation</item>
+        <item>e4animation</item>
+        <item>e5animation</item>
+        <item>e6animation</item>
+        <item>e7animation</item>
+        <item>e8animation</item>
+        <item>e9animation</item>
+        <item>e12animation</item>
+        <item>e13animation</item>
+        <item>e14animation</item>
+        <item>e32animation</item>
+        <!-- hombro -->
+        <item>h1animation</item>
+        <item>h2animation</item>
+        <item>h3animation</item>
+        <item>h4animation</item>
+        <item>h5animation</item>
+        <item>h6animation</item>
+        <item>h7animation</item>
+        <item>h8animation</item>
+        <item>h9animation</item>
+        <item>h10animation</item>
+        <item>h11animation</item>
+        <item>h12animation</item>
+        <item>h13animation</item>
+        <item>h14animation</item>
+        <item>h15animation</item>
+        <item>h16animation</item>
+        <item>h17animation</item>
+        <item>h18animation</item>
+        <item>h20animation</item>
+        <item>h142animation</item>
+        <!-- pierna -->
+        <item>pi1animation</item>
+        <item>pi2animation</item>
+        <item>pi3animation</item>
+        <item>pi4animation</item>
+        <item>pi5animation</item>
+        <item>pi6animation</item>
+        <item>pi7animation</item>
+        <item>pi8animation</item>
+        <item>pi9animation</item>
+        <item>pi10animation</item>
+        <item>pi12animation</item>
+        <item>pi15animation</item>
+        <item>pi16animation</item>
+        <item>pi17animation</item>
+        <item>pi18animation</item>
+        <item>pi19animation</item>
+        <item>pi20animation</item>
+        <item>pi21animation</item>
+        <item>pi22animation</item>
+        <item>pi30animation</item>
+        <item>pi33animation</item>
+        <item>pi44animation</item>
+        <item>pi55animation</item>
+        <item>pi77animation</item>
+        <item>pi88animation</item>
+        <item>pi99animation</item>
+        <item>tijerasanimation</item>
+        <!-- brazo/antebazo -->
+        <item>ant1animation</item>
+        <item>ant2animation</item>
+        <item>fore1animation</item>
+        <item>fore2animation</item>
+        <item>fore4animation</item>
+        <item>fore5animation</item>
+        <!-- abdominales -->
+        <item>abs1animation</item>
+        <item>abs2animation</item>
+        <item>abs4animation</item>
+        <item>abs5animation</item>
+        <item>abs6animation</item>
+        <item>abs7animation</item>
+        <item>abs9animation</item>
+        <item>abs10animation</item>
+        <item>abs11animation</item>
+        <item>abs12animation</item>
+        <item>abs13animation</item>
+        <item>abs14animation</item>
+        <item>abs15animation</item>
+        <item>abs16animation</item>
+        <item>abs17animation</item>
+        <item>abs18animation</item>
+        <item>abs19animation</item>
+        <item>abs20animation</item>
+        <item>abs21animation</item>
+        <item>abs22animation</item>
+        <item>abs23animation</item>
+        <item>abs24animation</item>
+        <item>abs26animation</item>
+    </string-array>
+</resources>
