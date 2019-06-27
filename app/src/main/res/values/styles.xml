@@ -9,4 +9,9 @@
         <item name="android:windowBackground">@android:color/white</item>
     </style>
 
+    <style name="imageButtonStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/imageButtonPadding</item>
+    </style>
+
 </resources>

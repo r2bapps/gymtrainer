@@ -4,9 +4,8 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fillViewport="true"
             android:scrollbars="vertical"
-            tools:context=".MainActivity">
+            tools:context=".routine.RoutineActivity">
 
     <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -39,10 +38,9 @@
                 android:layout_margin="5dp">
             <ImageButton
                     android:src="@drawable/ic_minus"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="bottom"
-                    android:background="@android:color/transparent"
+                    style="@style/imageButtonStyle"
+                    android:layout_width="@dimen/imageButtonSize"
+                    android:layout_height="@dimen/imageButtonSize"
                     android:id="@+id/btnSubstract"/>
             <TextView
                     android:textSize="32sp"
@@ -58,10 +56,9 @@
                     android:id="@+id/tvWeight"/>
             <ImageButton
                     android:src="@drawable/ic_add"
-                    android:background="@android:color/transparent"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="bottom"
+                    style="@style/imageButtonStyle"
+                    android:layout_width="@dimen/imageButtonSize"
+                    android:layout_height="@dimen/imageButtonSize"
                     android:id="@+id/btnAdd"/>
         </LinearLayout>
 

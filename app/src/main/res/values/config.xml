@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="defaultValue">0</integer>
-    <string name="deleted_key">deleted</string>
-    <string name="index_key">index</string>
-    <string name="prefs_filename">apps.r2b.gymtrainer.prefs</string>
-    <string name="config_filename">apps.r2b.gymtrainer.config</string>
+    <dimen name="imageButtonSize">40dp</dimen>
+    <dimen name="imageButtonPadding">10dp</dimen>
     <integer name="anim_duration">600</integer>
     <string-array name="image_names">
         <!-- pecho -->

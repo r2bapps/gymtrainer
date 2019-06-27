@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="apps.r2b.gymtrainer">
 
-    <uses-feature android:required="false" android:name="android.hardware.type.watch"/>
+    <uses-feature android:name="android.hardware.type.watch"/>
 
     <application
             android:name=".App"
@@ -12,14 +12,14 @@
             android:supportsRtl="true"
             android:roundIcon="@mipmap/ic_launcher_rounded"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".routine.RoutineActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ConfigActivity" />
+        <activity android:name=".settings.SettingsActivity" android:parentActivityName=".routine.RoutineActivity"/>
     </application>
 
 </manifest>
