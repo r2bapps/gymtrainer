@@ -47,10 +47,11 @@ class RoutineFragment : Fragment() {
         btnAdd.setOnClickListener {
             update(tvWeight, getValue(tvWeight) + 1)
         }
-        ivRoutine.setOnClickListener {
-            startActivity(Intent(context, SettingsActivity::class.java))
-        }
         ivRoutine.setImageResource(routine.imageResId)
+        ivRoutine.setOnLongClickListener {
+            activity!!.onBackPressed()
+            true
+        }
         tvWeight.text = routine.weight.toString()
         animate(ivRoutine)
     }

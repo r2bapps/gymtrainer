@@ -30,12 +30,6 @@ class Repository(private val appContext: Context) {
         return routines
     }
 
-    fun setRoutines(routines: MutableList<Routine>) {
-        val prefsEditor = appContext.getSharedPreferences(ROUTINES, 0)!!.edit()
-        for(routine in routines) {
-            prefsEditor.putString(routine.name, Gson().toJson(routine)).apply()
-        }
-    }
 
     fun setRoutine(routine: Routine) {
         val prefsEditor = appContext.getSharedPreferences(ROUTINES, 0)!!.edit()

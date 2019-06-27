@@ -2,8 +2,8 @@ package apps.r2b.gymtrainer.routine
 
 import android.content.Intent
 import android.content.SharedPreferences
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.view.View
 import apps.r2b.gymtrainer.App
 import apps.r2b.gymtrainer.R
@@ -16,6 +16,7 @@ class RoutineActivity : AppCompatActivity() {
     private val ROUTINE_PREFS = "routine_prefs_filename"
     private val ROUTINE_INDEX_KEY = "index"
     private var prefs : SharedPreferences? = null
+    private var firstTime = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,9 +30,10 @@ class RoutineActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        update()
-        viewpager.adapter!!.notifyDataSetChanged()
-        viewpager.setCurrentItem(getIndex(), false)
+        if (firstTime) {
+            update()
+            firstTime = false
+        }
     }
 
     override fun onPause() {
@@ -49,6 +51,8 @@ class RoutineActivity : AppCompatActivity() {
         } else {
             btnSettings.visibility = View.INVISIBLE
         }
+        viewpager.adapter!!.notifyDataSetChanged()
+        viewpager.setCurrentItem(getIndex(), false)
     }
 
     private fun setIndex(index: Int) {
