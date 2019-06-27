@@ -49,7 +49,7 @@ class RoutineFragment : Fragment() {
         }
         ivRoutine.setImageResource(routine.imageResId)
         ivRoutine.setOnLongClickListener {
-            activity!!.onBackPressed()
+            activity!!.finish()
             true
         }
         tvWeight.text = routine.weight.toString()
